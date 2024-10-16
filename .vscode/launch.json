@@ -13,7 +13,11 @@
             "runtimeArgs": [
                 "run-script",
                 "dev"
-            ]
+            ],
+            "resolveSourceMapLocations": [
+                "${workspaceFolder}/",
+                "!/node_modules/**"
+            ],
         }
     ]
 }
