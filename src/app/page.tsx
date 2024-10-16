@@ -1,15 +1,13 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import { Description } from "app/components/home/Description";
+import { Hero } from "app/components/home/Hero";
+import { MainProducts } from "app/components/home/MainProducts";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-
-      </main>
-      <footer className={styles.footer}>
-
-      </footer>
-    </div>
+    <main >
+      <Hero />
+      <Description />
+      <MainProducts />
+    </main>
   );
 }
