@@ -4,7 +4,7 @@ import { dirname, join } from 'path';
 const nextConfig = {
     sassOptions: {
         includePaths: [join(dirname('./'), 'src/sass')],
-        prependData: `@import "main.sass";`,
+        prependData: `@import "main.sass"`,
     },
 };
 
