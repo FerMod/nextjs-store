@@ -3,15 +3,15 @@ import { Description } from 'app/components/home/Description'
 
 
 export default function HomeLayout({
-    children,
+  children,
 }: Readonly<{
-    children: React.ReactNode
+  children: React.ReactNode
 }>) {
-    return (
-        <div>
-            <Hero />
-            <Description />
-            {children}
-        </div>
-    )
+  return (
+    <div>
+      <Hero />
+      <Description />
+      {children}
+    </div>
+  )
 }
