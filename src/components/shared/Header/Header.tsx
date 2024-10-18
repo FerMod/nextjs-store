@@ -12,9 +12,6 @@ export const Header = () => {
           <li>
             <Link href="/store" scroll={false}>Store</Link>
           </li>
-          <li>
-            <Link href="/test" scroll={false}>Test</Link>
-          </li>
         </ul>
       </nav>
     </header>
