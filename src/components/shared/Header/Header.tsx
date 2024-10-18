@@ -6,8 +6,16 @@ export const Header = () => {
         <header>
             <nav>
                 <ul className={styles.Header__list}>
-                    <li><Link href="/">Home</Link></li>
-                    <li><Link href="/store">Store</Link></li>
+                    <li>
+                        <Link href="/">
+                            Home
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href="/store">
+                            Store
+                        </Link>
+                    </li>
                 </ul>
             </nav>
         </header>
