@@ -1,13 +1,13 @@
 
 export default function Layout({
-    children,
+  children,
 }: {
-    children: React.ReactNode
+  children: React.ReactNode
 }) {
-    return (
-        <main>
-            <nav>Category navigation</nav>
-            {children}
-        </main>
-    );
+  return (
+    <main>
+      <nav>Category navigation</nav>
+      {children}
+    </main>
+  );
 }
