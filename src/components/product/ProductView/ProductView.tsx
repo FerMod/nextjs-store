@@ -7,7 +7,7 @@ interface ProductViewProps {
 }
 
 export const ProductView = ({ product }: ProductViewProps) => {
-
+  console.log(product);
   return (
     <main className={styles.ProductView}>
       <section className={styles.ProductView__images}>
@@ -24,7 +24,7 @@ export const ProductView = ({ product }: ProductViewProps) => {
         <h1 className={styles.ProductView__info__title}>{product.title}</h1>
         <p className={styles.ProductView__info__category}>{product.tags}</p>
         <p className={styles.ProductView__info__description}>{product.description}</p>
-        <span className={styles.ProductView__info__price}>${product.price}</span>
+        <span className={styles.ProductView__info__price}>$ {product.price}</span>
         <ProductViewItemsOrder maxQuantity={product.quantity} />
       </section>
     </main>
