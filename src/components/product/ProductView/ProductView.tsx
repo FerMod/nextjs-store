@@ -7,7 +7,6 @@ interface ProductViewProps {
 }
 
 export const ProductView = ({ product }: ProductViewProps) => {
-  console.log(product);
   return (
     <main className={styles.ProductView}>
       <section className={styles.ProductView__images}>
